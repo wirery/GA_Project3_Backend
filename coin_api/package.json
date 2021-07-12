@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "coin_api",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.11.0"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
