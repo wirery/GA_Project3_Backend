@@ -32,7 +32,7 @@ mongoose.connection.once('open', ()=>{
     console.log('connected to mongoose...')
 })
 
-const whitelist = ['http://localhost:3000','mongodb://localhost27017/coins','https://coin-exchange-frontend.herokuapp.com/']
+const whitelist = ['http://localhost:3000','mongodb://localhost27017/coins','https://coin-exchange-frontend.herokuapp.com']
 const corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
