@@ -3,7 +3,7 @@ const coins = express.Router()
 const Coin = require('../models/coins.js')
 
 //Create Route
-coins.post('/coins', async (req, res) => {
+coins.post('/', async (req, res) => {
     console.log(req.body)
     Coin.create(req.body, (error, createdCoin) => {
       if (error) {
